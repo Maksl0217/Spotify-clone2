@@ -73,7 +73,7 @@ const Header: FC<IHeader> = ({ children, className }) => {
                 Logout
               </Button>
               <Button
-                onClick={() => router.push("/account")}
+                // onClick={() => router.push("/account")}
                 className=" bg-white"
               >
                 <FaUserAlt />
